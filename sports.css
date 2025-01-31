@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto; /*TRouBLe for margin full typing.- top, right, bottom, left*/
+    
+}
+
+section{
+    border: 1px solid saddlebrown;
+    background-color: white;
+}
+
